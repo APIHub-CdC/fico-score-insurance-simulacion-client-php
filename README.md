@@ -74,8 +74,6 @@ public function testGetFicoscore()
     $requestDomicilio->setMunicipio(null);
     $requestDomicilio->setEstado($requestDomicilio::ESTADO_AGS);
 
-    
-
     $requestPersona->setPrimerNombre("ROBERTO");
     $requestPersona->setSegundoNombre(null);
     $requestPersona->setApellidoPaterno("SAHAGUN");
