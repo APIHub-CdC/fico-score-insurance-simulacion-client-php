@@ -35,8 +35,6 @@ class ApiTest extends \PHPUnit_Framework_TestCase
         $requestDomicilio->setCodigoPostal(null);
         $requestDomicilio->setMunicipio(null);
         $requestDomicilio->setEstado($requestDomicilio::ESTADO_AGS);
-
-        
     
         $requestPersona->setPrimerNombre("ROBERTO");
         $requestPersona->setSegundoNombre(null);
